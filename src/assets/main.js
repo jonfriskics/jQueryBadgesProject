@@ -12,7 +12,7 @@ $(function() {
         courseDiv.append('h3').text(c.title);
         courseDiv.append('img').attr('src',c.badge);
         courseDiv.append('a').attr({'href':c.url,'target':'_blank'}).addClass('btn').addClass('btn-primary').text('See Course');
-        $('#badges').append('div');
+        $('#badges').append(courseDiv);
 
       })
     }
